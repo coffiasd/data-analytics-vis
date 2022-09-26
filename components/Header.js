@@ -4,7 +4,7 @@ import {
     useChainModal,
 } from '@rainbow-me/rainbowkit';
 import { useAccount } from 'wagmi'
-import { link } from 'next/link';
+import Link, { link } from 'next/link';
 
 export default function Header() {
     const { openConnectModal } = useConnectModal();
@@ -18,9 +18,15 @@ export default function Header() {
     return (
         <div className="navbar bg-neutral text-neutral-content">
             <div className="flex-1">
-                <link className="btn btn-ghost normal-case text-xl" href="/">Dashboard</link>
-                <link target="_blank" rel="noreferrer" className="text-base ml-3 mt-1 font-medium" href="https://twitter.com/coffiasse">Twitter</link>
-                <link target="_blank" rel="noreferrer" className="text-base ml-6 mt-1 font-medium" href="https://github.com/coffiasd">Github</link>
+                <Link href="/">
+                    <a className="btn btn-ghost normal-case text-xl">Dashboard</a>
+                </Link>
+                <Link href="https://twitter.com/coffiasse">
+                    <a target="_blank" rel="noreferrer" className="text-base ml-3 mt-1 font-medium">Twitter</a>
+                </Link>
+                <Link href="https://github.com/coffiasd">
+                    <a target="_blank" rel="noreferrer" className="text-base ml-6 mt-1 font-medium">Github</a>
+                </Link>
             </div>
 
             <div className="navbar-start">

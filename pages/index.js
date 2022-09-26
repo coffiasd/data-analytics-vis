@@ -30,15 +30,14 @@ export default function Home() {
 
       <div className='min-h-screen'>
 
-        <div class="tabs tabs-boxed justify-center m-10">
-          <a class={tab ? "tab tab-lg tab-active" : "tab tab-lg"} onClick={(e) => setState(true)}>Stolen NFTs</a>
-          <a class={tab ? "tab tab-lg" : "tab tab-lg tab-active"} onClick={(e) => setState(false)}>Spam Contracts</a>
+        <div className="tabs tabs-boxed justify-center m-10">
+          <a className={tab ? "tab tab-lg tab-active" : "tab tab-lg"} onClick={(e) => setState(true)}>Stolen NFTs</a>
+          <a className={tab ? "tab tab-lg" : "tab tab-lg tab-active"} onClick={(e) => setState(false)}>Spam Contracts</a>
         </div>
 
 
         <div className="hero">
           {tab ? (<Stats />) : (<Stats2 />)}
-
         </div>
 
         <div className='w-scree mt-10'>

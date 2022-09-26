@@ -9,8 +9,8 @@ import {
 } from 'chart.js';
 import { Bar } from 'react-chartjs-2';
 
-
 export default function SpamContracts() {
+
     ChartJS.register(
         CategoryScale,
         LinearScale,
@@ -19,7 +19,6 @@ export default function SpamContracts() {
         Tooltip,
         Legend
     );
-
 
     const options = {
         plugins: {
