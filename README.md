@@ -1,34 +1,31 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+## Overview
+
+This is a hackathon data visualization project.Below this tech stack
+
+- next.js
+- chart.js
+- react
+- tailwindcss
+- wagmi
+- daisyUI
 
 ## Getting Started
 
-First, run the development server:
-
-```bash
-npm run dev
-# or
-yarn dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
-
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
-
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+    npm run build
+    npm run start
 
 ## Learn More
 
-To learn more about Next.js, take a look at the following resources:
+In this project i collected some stolen NFTs that been marked by opensea.
+In this tab analyze top 2300 NFTs and find out 6 NFTs and 929 stolen items.
+Step by step how i got this data you can check out my another project
+"https://tasteful-wholesaler-12c.notion.site/Hachathon-Stolen-NFTs-25f16af4bfe54920914013ac8d394e35"
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+And another data tab is about Spam contrcts that been marked by alchemy.
+This tab contains 2386 spam contracts.Total mints number 11,189k and total owner 3,211k.For a more detail content click "https://tasteful-wholesaler-12c.notion.site/Hackathon-Spam-Contract-20e18207afe54e9ca2149a46de1c71c3"
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+For the csv data in this project you can get data from my another github repo "https://github.com/coffiasd/hackathon-data-analytics"
 
-## Deploy on Vercel
+## Youtube
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+https://www.youtube.com/watch?v=-7s3sJACs9E&ab_channel=ayden-hackathon
